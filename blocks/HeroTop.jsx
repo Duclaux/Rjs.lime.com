@@ -4,7 +4,7 @@ import Bg_hero from '../src/assets/bg_hero.png'
 
 function HeroTop() {
   return (
-    <div className='border-4 border-red-600 w-full bg-auto bg-center lg:bg-center h-full heroTop'>
+    <div className='w-full bg-auto bg-center lg:bg-center h-full heroTop'>
         <div className='bg-gradient-to-b from-[#00000094] h-full w-full text-white text-center'>
             <div className='pt-[250px] lg:pt-[350px]'>
                 <h1 className='text-[30px] lg:text-[72px]'>Ride Green</h1>

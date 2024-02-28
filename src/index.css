@@ -12,7 +12,5 @@ body{
     background-image: url(../src/assets/bg_hero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    z-index: -1;
+    height: 100vh;
 }
