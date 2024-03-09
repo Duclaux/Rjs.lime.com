@@ -35,7 +35,7 @@ function Footer() {
             {/* div logo */}
             <div className='flex items-center mb-[56px] lg:mb-0'>
                 <img src={GreenLogo} alt=""  className='w-[45px] h-[45px] lg:w-auto lg:h-auto'/>
-                <img src={GreenLime} alt="" className='ml-[5px] lg:ml-[11px] w-[34.7px] h-[34.13px] lg:w-[57.83px] lg:h-[56.88px]'/>
+                <img src={GreenLime} alt="" className='ml-[5px] lg:ml-[11px] w-[57.83px] h-[56.88px]'/>
             </div>
 
 

@@ -3,6 +3,8 @@ import Vehicles from '../blocks/Vehicles'
 import TheApp from '../blocks/TheApp'
 import Location from '../blocks/Location'
 import Download from '../blocks/Download'
+import WhyLime from '../components/WhyLime'
+import LimeTimesBlog from '../components/LimeTimesBlog'
 
 function Body() {
   return (
@@ -10,6 +12,8 @@ function Body() {
         <Vehicles/>
         <TheApp/>
         <Location/>
+        <WhyLime/>
+        <LimeTimesBlog/>
         <Download/>
     </>
   )

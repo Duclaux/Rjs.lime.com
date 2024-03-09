@@ -7,16 +7,16 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import CardCity from './CardCity'
 import Container from './Container'
 
-import NewYork from '../src/assets/newYork.png'
-import SanFancisco from '../src/assets/sanFrancisco.png'
-import Washington from '../src/assets/washington.png'
+import Safety from '../src/assets/safety.png'
+import Sustainability from '../src/assets/sustainability.png'
+import Community from '../src/assets/community.png'
 
 function Partie() {
 
   const items = [
-    <CardCity img={NewYork} link='https://www.visittheusa.fr/destination/new-york' title='New York' styles='mx-[3px]'/>,
-    <CardCity img={SanFancisco} link='https://www.visittheusa.fr/destination/new-york' title='San Fancisco' styles='mx-[3px]'/>,
-    <CardCity img={Washington} link='https://www.visittheusa.fr/destination/new-york' title='Washington' styles='mx-[3px]'/>,
+    <CardCity img={Safety} link='https://www.visittheusa.fr/destination/new-york' title='safety' styles='mx-[3px] uppercase'/>,
+    <CardCity img={Sustainability} link='https://www.visittheusa.fr/destination/new-york' title='sustainability' styles='mx-[3px] uppercase'/>,
+    <CardCity img={Community} link='https://www.visittheusa.fr/destination/new-york' title='community' styles='mx-[3px] uppercase'/>,
   ]
 
   const responsive={
@@ -33,8 +33,8 @@ function Partie() {
       <Container style='py-[45px] lg:py-[80px]'>
 
         <div className='text-center mt-[77px] mb-[42px] md:mb-[64px]'>
-            <h1 className='text-[#00B200] text-[16px] sm:text-[20px]'>Locations</h1>
-            <h3 className='text-[30px] sm:text-[40px]'>Our U.S. Cities</h3>
+            <h1 className='text-[#00B200] text-[16px] sm:text-[20px]'>Why Lime</h1>
+            <h3 className='text-[30px] sm:text-[40px]'>Our Core Principles</h3>
         </div>
 
         <AliceCarousel
